@@ -10,7 +10,7 @@ const initialState ={
 
 }
 
-export default function(state=initialState, action){
+export default function alertaReducer (state=initialState, action){
         switch(action.type){
             case MOSTRAR_ALERTA:
                 return{

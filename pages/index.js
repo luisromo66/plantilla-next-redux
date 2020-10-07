@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout from '../components/layout/Layout';
 
 export default function Home() {
   return (
-     <h1>Esto es un ejemplo</h1>
+     <div>
+        <Layout>
+          <h1>Hola</h1>
+        </Layout>
+     </div>
   )
 }
